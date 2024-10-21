@@ -1,0 +1,399 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Seção Histórica</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			.hlinha{
+				text-align: center;
+				padding-bottom: 50px;
+			}
+		
+	        body {
+	            font-family: Arial, sans-serif;
+	            background-color: #f4f4f4;
+	            margin: 0;
+	            padding: 0;
+	        }
+
+	        .timeline {
+	            position: relative;
+	            max-width: 1200px;
+	            margin: 0 auto;
+	        }
+
+	        .timeline::after {
+	            content: '';
+	            position: absolute;
+	            width: 6px;
+	            background-color: #2196F3;
+	            top: 0;
+	            bottom: 0;
+	            left: 50%;
+	            margin-left: -3px;
+	        }
+
+	        .container {
+	            padding: 10px 40px;
+	            position: relative;
+	            background-color: inherit;
+	            width: 50%;
+	        }
+
+	        .container.left {
+	            right: -50%;
+	        }
+
+	        .container.right {
+	            left: 50%;
+	        }
+
+	        .container::after {
+	            content: '';
+	            position: absolute;
+	            width: 25px;
+	            height: 25px;
+	            right: 62px;
+	            background-color: white;
+	            border: 4px solid #2196F3;
+	            top: 15px;
+	            border-radius: 50%;
+	            z-index: 1;
+	        }
+
+	        .right::after {
+	            left: -13px;
+	        }
+	        .left::after {
+	            left: -13px;
+	        }
+
+	        .content {
+	            padding: 20px 30px;
+	            background-color: white;
+	            position: relative;
+	            border-radius: 6px;
+	        }
+
+	        .container.left .content {
+	            margin-left: 60;
+	        }
+
+	        .container.right .content {
+	            margin-left: 60px;
+	        }
+
+	        .date {
+	            font-weight: bold;
+	            color: #2196F3;
+	        }
+
+	        @media screen and (max-width: 600px) {
+	            .timeline::after {
+	                left: 31px;
+	            }
+
+	            .container {
+	                width: 100%;
+	                padding-left: 70px;
+	                padding-right: 25px;
+	            }
+
+	            .container::after {
+	                left: 60px;
+	                right: auto;
+	            }
+
+
+
+
+	            * {
+		            margin: 0;
+		            padding: 0;
+		            box-sizing: border-box;
+		        }
+
+		        body {
+		            font-family: Arial, sans-serif;
+		            background-color: #f0f0f0;
+		            color: #333;
+		            display: flex;
+		            justify-content: center;
+		            align-items: center;
+		            height: 100vh;
+		        }
+
+		        .container1 {
+		            max-width: 800px;
+		            width: 100%;
+		            background-color: #fff;
+		            padding: 20px;
+		            border-radius: 10px;
+		            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		        }
+
+		        h1 {
+		            text-align: center;
+		            margin-bottom: 20px;
+		        }
+
+		        .language-card {
+		            margin-bottom: 20px;
+		            background-color: #eaeaea;
+		            padding: 15px;
+		            border-radius: 5px;
+		            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		        }
+
+		        .language-card h2 {
+		            margin-bottom: 10px;
+		        }
+
+		        .language-profile {
+		            display: none;
+		            margin-top: 10px;
+		            background-color: #f9f9f9;
+		            padding: 10px;
+		            border-radius: 5px;
+		            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+		        }
+
+		        button {
+		            padding: 8px 12px;
+		            background-color: #007BFF;
+		            color: white;
+		            border: none;
+		            border-radius: 4px;
+		            cursor: pointer;
+		        }
+
+		        button:hover {
+		            background-color: #0056b3;
+		        }
+
+	        }
+    	</style>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main"class="content">
+						<div class="inner">
+								<section id="banner">
+									<div class="content">
+										<header>
+											<h1>Seção Histórica</h1>
+										</header>
+										<h2>Sobre o Tema</h2>
+
+										<p>Aqui você encotrara Linha do tempo interativa: Uma linha do tempo visualmente atraente que destaca os principais marcos no desenvolvimento das linguagens de programação, desde a linguagem de máquina até as linguagens modernas. Perfis interativos de linguagens chave: Perfis detalhados de linguagens importantes como Assembly, C, Java, Python, e JavaScript, com informações sobre sua história, características e usos. Vídeos e infográficos: Conteúdo multimídia que explica momentos significativos na história da computação e das linguagens de programação</p>
+									</div>
+									<span class="image main"><img src="images/pic12.png" alt="" /></span>
+								</section>
+								<hr class="major" />
+								<div class="linhadotempo">	
+									<h2 class="hlinha">linha do tempo</h2>
+									<div class="timeline">
+									    <div class="container right">
+								            <div class="content">
+								                <p class="date">1940s</p>
+								                <h2>Linguagem de Máquina</h2>
+								                <p>A primeira forma de programação diretamente interpretada pelo hardware, baseada em códigos binários (0 e 1).</p>
+								            </div>
+								        </div>
+								        <div class="container left">
+								            <div class="content">
+								                <p class="date">1957</p>
+								                <h2>Fortran</h2>
+								                <p>Primeira linguagem de programação de alto nível, usada principalmente para cálculos científicos.</p>
+								            </div>
+								        </div>
+								        <div class="container right">
+								            <div class="content">
+								                <p class="date">1959</p>
+								                <h2>COBOL</h2>
+								                <p>Desenvolvida para negócios e processamento de dados, tornou-se amplamente utilizada em sistemas corporativos.</p>
+								            </div>
+								        </div>
+								        <div class="container left">
+								            <div class="content">
+								                <p class="date">1970</p>
+								                <h2>Pascal</h2>
+								                <p>Linguagem criada para ensino de programação estruturada, popular no ensino acadêmico e desenvolvimento de software de sistemas.</p>
+								            </div>
+								        </div>
+								        <div class="container right">
+								            <div class="content">
+								                <p class="date">1972</p>
+								                <h2>C</h2>
+								                <p>Influente linguagem de programação que deu origem a muitas outras linguagens, usada para sistemas e software.</p>
+								            </div>
+								        </div>
+								        <div class="container left">
+								            <div class="content">
+								                <p class="date">1983</p>
+								                <h2>C++</h2>
+								                <p>Extensão do C com recursos de programação orientada a objetos, amplamente utilizada em software de sistemas e jogos.</p>
+								            </div>
+								        </div>
+								        <div class="container right">
+								            <div class="content">
+								                <p class="date">1991</p>
+								                <h2>Python</h2>
+								                <p>Famosa por sua simplicidade e versatilidade, Python é usada em diversas áreas, incluindo ciência de dados, IA e desenvolvimento web.</p>
+								            </div>
+								        </div>
+								        <div class="container left">
+								            <div class="content">
+								                <p class="date">1995</p>
+								                <h2>Java</h2>
+								                <p>Linguagem de programação voltada para a portabilidade entre diferentes plataformas, popular em aplicativos empresariais.</p>
+								            </div>
+								        </div>
+								        <div class="container right">
+								            <div class="content">
+								                <p class="date">2000</p>
+								                <h2>C#</h2>
+								                <p>Desenvolvida pela Microsoft, é amplamente utilizada para desenvolvimento de aplicativos Windows e jogos com o Unity.</p>
+								            </div>
+								        </div>
+								    </div> 
+							    </div>
+							    
+								<div class="container1">
+								        <h1>Perfis Interativos de linguagens chave</h1>
+
+								        <div class="language-card" id="assembly">
+								            <h2>Assembly</h2>
+								            <button onclick="toggleProfile('assemblyProfile')">Ver mais</button>
+								            <div class="language-profile" id="assemblyProfile">
+								                <p>Assembly é uma linguagem de baixo nível usada para programação direta de hardware. Sua sintaxe varia conforme a arquitetura da máquina.</p>
+								            </div>
+								        </div>
+
+								        <div class="language-card" id="c">
+								            <h2>C</h2>
+								            <button onclick="toggleProfile('cProfile')">Ver mais</button>
+								            <div class="language-profile" id="cProfile">
+								                <p>C é uma linguagem de programação de propósito geral muito eficiente, amplamente usada no desenvolvimento de sistemas operacionais e aplicativos.</p>
+								            </div>
+								        </div>
+
+								        <div class="language-card" id="java">
+								            <h2>Java</h2>
+								            <button onclick="toggleProfile('javaProfile')">Ver mais</button>
+								            <div class="language-profile" id="javaProfile">
+								                <p>Java é uma linguagem orientada a objetos, conhecida por sua portabilidade, usada em uma variedade de plataformas, desde aplicações web até dispositivos móveis.</p>
+								            </div>
+								        </div>
+
+								        <div class="language-card" id="python">
+								            <h2>Python</h2>
+								            <button onclick="toggleProfile('pythonProfile')">Ver mais</button>
+								            <div class="language-profile" id="pythonProfile">
+								                <p>Python é uma linguagem de alto nível famosa por sua simplicidade e legibilidade, amplamente utilizada em desenvolvimento web, ciência de dados, IA e automação.</p>
+								            </div>
+								        </div>
+
+								        <div class="language-card" id="javascript">
+								            <h2>JavaScript</h2>
+								            <button onclick="toggleProfile('javascriptProfile')">Ver mais</button>
+								            <div class="language-profile" id="javascriptProfile">
+								                <p>JavaScript é uma das principais linguagens para desenvolvimento web, permitindo a criação de interfaces dinâmicas e interativas diretamente no navegador.</p>
+								            </div>
+								        </div>
+								</div>
+								<div >
+										<article>
+											<h2> Vídeos sobre momentos significativos na história da computação.</h2>
+											<div class="container1">
+												<p>
+													<h2>Início da Computação 1940</h2>
+													O primeiro computador eletrônico de uso geral, criado por John Presper Eckert e John William Mauchly. Com 30 toneladas e 18.000 válvulas, foi um marco na computação digital.
+													<a href="https://youtu.be/4HMCMFBPMMQ?si=VKvd3vdNZliZ6KSz" target="#">link</a>
+												</p>
+												<p>
+													<h2>Desenvolvimento dos Primeiros Computadores Pessoais 1970-1980 </h2>
+													Considerado o primeiro microcomputador comercialmente disponível, o Altair 8800 popularizou a computação pessoal. 
+													<a href="https://youtu.be/e8qGo9tJ96I?si=i5Qg9IRSQ0C68w1H" target="#">link</a>
+												</p>
+												<p>
+													<h2>Apple II 1977</h2>
+													Um dos primeiros microcomputadores a ter sucesso comercial, desenvolvido por Steve Wozniak e Steve Jobs. Foi um dos primeiros computadores pessoais a ser amplamente acessível. 
+													<a href="https://youtu.be/CxJwy8NsXFs?si=T56QB_CVTexmJqku" target="#">link</a>
+												</p>
+												<p>
+													<h2>A Revolução da Internet 1990</h2>
+													Tim Berners-Lee publica o primeiro site e cria a base para a internet moderna. Sua invenção do HTML e HTTP revolucionou o acesso à informação. 
+													<a href="https://youtu.be/J8hzJxb0rpc?si=rw-3Ko7NkspYkHTY " target="#">link</a>
+												</p>
+												<p>
+													<h2>Google 1998</h2>
+													Larry Page e Sergey Brin fundam o Google, que rapidamente se torna o motor de busca mais popular e transforma a forma como acessamos a informação. 
+													<a href="https://youtu.be/L8etB0ReG-Q?si=5WxE3lZV4oLJNIzr" target="#">link</a>
+												</p>
+
+											</div>
+									</div>   
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="generic.html">Seção Histórica</a></li>
+										<li><a href="elements.html">Seção Atualidades</a></li>
+										<li><a href="seção futuro.html">Seção Futuro</a></li>
+										<li><a href="galeria de projetos.html">Galeria de Projetos</a></li>
+										<li><a href="recursos educacionais.html">recursos eduacacionais</a></li>
+									</ul>
+								</nav>
+						</div>
+					</div>
+			</div>
+
+		<!-- Scripts -->
+			 <script>
+		        function toggleProfile(profileId) {
+		            const profile = document.getElementById(profileId);
+		            if (profile.style.display === "block") {
+		                profile.style.display = "none";
+		            } else {
+		                profile.style.display = "block";
+		            }
+		        }
+		    </script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
